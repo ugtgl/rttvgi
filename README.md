@@ -3,6 +3,8 @@ Realtime GI Refreshing For Dynamic Light Intensities In Unity
 
 Add the script to the GameObject with the VideoPlayer component.
 You need to create and assign a RenderTexture for your VideoPlayer.
+Bake RealtimeGI and enable emission in the material you are going to use.
+Assign the RenderTexture to emission color in the material.
 
 # How does it work?
 1. Get the RenderTexture output from VideoPlayer.
